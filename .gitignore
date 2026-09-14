@@ -4,3 +4,7 @@
 __pycache__/
 .idea/
 .vscode/
+
+# Sphinx 文档构建环境与产物
+verl-docs-zh/.venv/
+verl-docs-zh/build/

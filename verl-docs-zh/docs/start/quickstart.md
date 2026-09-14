@@ -6,7 +6,7 @@
 
 ## 简介
 
-在本示例中，我们使用基于函数的奖励来训练 LLM 解决 [GSM8k](https://verl.readthedocs.io/en/latest/start/hf_dataset_gsm8k) 任务。[\[1\]](#id3)
+在本示例中，我们使用基于函数的奖励来训练 LLM 解决 [GSM8k](https://verl.readthedocs.io/en/latest/start/hf_dataset_gsm8k) 任务。
 
 **前置条件：**
 
@@ -66,7 +66,7 @@ python3 -c "import transformers; transformers.pipeline('text-generation', model=
 
 **训练脚本**
 
-现在让我们用上述数据集和模型运行 PPO 训练。[\[2\]](#id4)
+现在让我们用上述数据集和模型运行 PPO 训练。
 
 根据您的数据集和模型名称或路径设置 `data.train_files`、`data.val_files`、`actor_rollout_ref.model.path` 和 `critic.model.path`。您可以设置 `VERL_USE_MODELSCOPE=True` 从 [modelscope](https://www.modelscope.cn/) 而不是 [huggingface](https://huggingface.co/) 下载模型。
 
